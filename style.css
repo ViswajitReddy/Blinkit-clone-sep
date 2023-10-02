@@ -1,0 +1,247 @@
+header{
+    position: sticky;
+    top:0px;
+    z-index: 1000 !important;
+}
+nav{
+    background-color: white;
+    
+}
+.verticle_line{
+    border-left:1px solid rgb(233, 232, 232);
+    height: 50px;
+}
+.nav-delivery>h5{
+    font-weight: 900;
+}
+.nav-delivery>p{
+    font-size: 13px;;
+}
+.nav-search-div{
+    background-color:#f8f8f8;
+    border:1px solid #f2f2f2;
+    padding-inline:8px;
+    border-radius: 10px;
+}
+.nav-search{
+    width:40vw;
+    height:50px;
+    border:none;
+    background-color: transparent;
+}
+.my-cart-btn{
+    border-radius:10px !important;
+    background-color: #0C831F !important;
+    color:white !important;
+    font-size: 15px;
+    font-weight:600 !important;
+    
+}
+
+.my-hero{
+    width:85vw;
+    margin: auto;
+}
+
+.scroll-container{
+    width:85vw;
+    margin:auto;
+    
+}
+.list{
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+.list::-webkit-scrollbar{
+    display: none;
+}
+.list>img{
+    display: inline-block;
+    margin:10px;
+}
+
+.all-categories{
+    width:85vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.category-wise{
+    width:85vw;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.my-card{
+    width:200px !important;
+    display: inline-block !important;
+    box-sizing: border-box !important;
+    border-radius: 15px !important;
+    white-space: wrap;
+    /* box-shadow:0px 0px 1px gray; */
+    margin-inline: 10px;
+    padding:10px;
+}
+.my-card>p{
+    font-size: 13px;
+    color:#666666;
+}
+.my-card>img{
+    display: inline-block;
+    margin: auto;
+}
+.timer{
+    font-size: 10px;
+    width:fit-content
+    color:#318616;
+}
+
+#made-by{
+    width:85vw;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.footer{
+    width:85vw;
+    margin: auto;
+}
+.footer-row-1{
+    display: flex;
+    margin-top:60px;
+}
+.row-1-col-1{
+    flex:2;
+    width:100%;
+}
+.row-1-col-2{
+    flex:3;
+    /* width:100%; */
+}
+table{
+    width:100%;
+    color:#666666;
+    font-size: 14px;
+    cursor: pointer;
+}
+td{
+    line-height: 30px;
+}
+td:hover{
+    text-decoration: underline;
+    color: red;
+    font-size: 16px;
+    
+}
+.footer-row-2{
+    display: flex;
+    margin-top:60px;
+    margin-bottom: 40px;
+    align-items: center;
+    color:#666666;
+    text-align: justify;
+}
+
+.row-2-col-1{
+    flex:1;
+    font-size: 13px;
+    padding-inline: 10px;
+    margin-right: 20px;
+}
+.row-2-col-2{
+    flex:1;
+    display: flex;
+    align-items: center;
+    
+}
+
+.box{
+    width:140px;
+    height: 40px;
+    background-color: #213A50;
+    color:white;
+    line-height: 12px;
+    border-radius: 8px;
+    margin-left: 10px;
+    border:none;
+    display: flex;
+}
+.store{
+    font-size: 10px;
+}
+
+.row-2-col-3{
+    flex:1;
+    display: flex;
+    width:100%;
+    justify-content: right;
+}
+.social-icon{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    background-color: black;
+}
+
+
+@media screen and (max-width:768px){
+    .my-hero,.verticle_line{
+        display: none;
+    }
+    header{
+        position: static;
+        margin-top: 15px;
+    }
+    .nav-search-div{
+        width:90vw !important; 
+    }
+    
+
+    nav,.footer-row-1{
+        flex-direction: column !important;
+        justify-content: center !important; 
+        align-items: center !important;
+        margin: auto !important;
+        
+    }
+    .footer-row-2,.row-1-col-1,.row-1-col-2,.row-2-col-2{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center !important;
+        margin-top:20px;
+    }
+    td{
+        text-align: center;
+        font-size: 12px;
+    }
+    td:hover{
+        text-decoration: underline;
+        color: red;
+        font-size: 12px !important;
+        
+    }
+    .row-2-col-3{
+        display: flex !important;
+        justify-content: center !important;
+        margin-top: 15px;
+        
+    }
+    .row-2-col-2{
+        display: flex !important;
+        justify-content: center !important;
+        padding-inline: 20px;
+        
+    }
+    .box{
+        margin-bottom: 10px;
+    }
+
+}
